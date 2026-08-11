@@ -1,8 +1,8 @@
-#include "Hypotrochoid.h"
+#include "MemoryGame.h"
 
 int main() 
 {
-	Hypotrochoid game;
+	MemoryGame game;
 	game.Main();
 
 	return 0;

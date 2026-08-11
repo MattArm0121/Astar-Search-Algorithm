@@ -1,2 +1,6 @@
-﻿  Hypotrochoid.cpp
+﻿  MemoryGame.cpp
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\MemoryGame.cpp(25,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\MemoryGame.cpp(39,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\MemoryGame.cpp(52,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\MemoryGame.cpp(78,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   VGP230_Raylib.vcxproj -> C:\Users\user\source\repos\VGP230_Raylib\x64\Debug\VGP230_Raylib.exe
