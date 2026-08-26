@@ -13,6 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\L8">
+      <UniqueIdentifier>{b86f8c8b-0629-41fe-8131-8322e1921166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L8">
+      <UniqueIdentifier>{c9bc3d7e-a1a2-4b1b-a1e8-f5b5431b13f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L1">
+      <UniqueIdentifier>{4188c830-f59a-45ea-a9f0-570a5d079aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L2">
+      <UniqueIdentifier>{6b605fc2-cc05-425f-a5d1-6f3d6b06a53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L3">
+      <UniqueIdentifier>{c434b4c2-aaf1-4eaa-b8c2-05a4b4d0a318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L4">
+      <UniqueIdentifier>{bce25047-88cc-470d-bf9c-0cb3f44230ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L5">
+      <UniqueIdentifier>{1116c2d3-d16a-4ad2-a807-19a974b47f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L6">
+      <UniqueIdentifier>{1fa9d427-a7c2-4597-b66a-4078a2238bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\L7">
+      <UniqueIdentifier>{0a4fe055-3ead-4073-897d-3397aa0b7f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L7">
+      <UniqueIdentifier>{088c40ca-5e71-4d2e-9ece-bcd8651e9ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L6">
+      <UniqueIdentifier>{0b82014c-3ff4-43f2-8125-11444bef7810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L5">
+      <UniqueIdentifier>{a33e665e-1757-419b-9e11-2affce17235d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L4">
+      <UniqueIdentifier>{6c493861-879c-4b8d-9bfa-85ea4d13954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L3">
+      <UniqueIdentifier>{a4ed354c-9352-4ced-88dc-f9938abb1ea7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,67 +63,79 @@
     <ClCompile Include="Structure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ParticleSystem.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files\L8</Filter>
     </ClCompile>
-    <ClCompile Include="FlappyBird.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A4_2048.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Hypotrochoid.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="SnakeGame.cpp">
+      <Filter>Source Files\L7</Filter>
     </ClCompile>
     <ClCompile Include="MemoryGame.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\L6</Filter>
     </ClCompile>
     <ClCompile Include="MemoryTile.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\L6</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypotrochoid.cpp">
+      <Filter>Source Files\L5</Filter>
+    </ClCompile>
+    <ClCompile Include="A4_2048.cpp">
+      <Filter>Source Files\L4</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\L3</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyBird.cpp">
+      <Filter>Source Files\L3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="L1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="L2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="L3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Structure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ParticleSystem.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files\L8</Filter>
     </ClInclude>
-    <ClInclude Include="Particle.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="L1.h">
+      <Filter>Header Files\L1</Filter>
+    </ClInclude>
+    <ClInclude Include="L2.h">
+      <Filter>Header Files\L2</Filter>
+    </ClInclude>
+    <ClInclude Include="L3.h">
+      <Filter>Header Files\L3</Filter>
     </ClInclude>
     <ClInclude Include="L4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FlappyBird.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L4</Filter>
     </ClInclude>
     <ClInclude Include="A4_2048.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L4</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\L3</Filter>
     </ClInclude>
     <ClInclude Include="Hypotrochoid.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L5</Filter>
     </ClInclude>
     <ClInclude Include="L6.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L6</Filter>
     </ClInclude>
     <ClInclude Include="MemoryGame.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L6</Filter>
     </ClInclude>
     <ClInclude Include="MemoryTile.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L6</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\L3</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeGame.h">
+      <Filter>Header Files\L7</Filter>
     </ClInclude>
     <ClInclude Include="MemoryTileStatus.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\L6</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyBird.h">
+      <Filter>Header Files\L3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

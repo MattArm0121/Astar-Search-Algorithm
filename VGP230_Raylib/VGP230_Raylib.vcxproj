@@ -131,16 +131,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A4_2048.cpp" />
+    <ClCompile Include="AI.cpp" />
     <ClCompile Include="FlappyBird.cpp" />
     <ClCompile Include="Hypotrochoid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MemoryGame.cpp" />
     <ClCompile Include="MemoryTile.cpp" />
     <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="SnakeGame.cpp" />
     <ClCompile Include="Structure.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="A4_2048.h" />
+    <ClInclude Include="AI.h" />
     <ClInclude Include="FlappyBird.h" />
     <ClInclude Include="Hypotrochoid.h" />
     <ClInclude Include="L1.h" />
@@ -153,6 +156,7 @@
     <ClInclude Include="MemoryTileStatus.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="SnakeGame.h" />
     <ClInclude Include="Structure.h" />
   </ItemGroup>
   <ItemGroup>

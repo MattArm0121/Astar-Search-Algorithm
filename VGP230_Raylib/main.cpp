@@ -1,8 +1,8 @@
-#include "MemoryGame.h"
+#include "AI.h"
 
 int main() 
 {
-	MemoryGame game;
+	AI game;
 	game.Main();
 
 	return 0;
