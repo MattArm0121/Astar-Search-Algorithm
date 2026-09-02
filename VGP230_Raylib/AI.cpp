@@ -1,9 +1,10 @@
 #include "AI.h"
 #include <time.h>
 #include <string>
+#include <algorithm>
+#include <cmath>
 
 Node* getUnblockedNode(std::vector<std::vector<Node>>& grid) {
-	SetRandomSeed(time(0));
 	int RandomRow, RandomCol;
 
 	do {
@@ -12,6 +13,21 @@ Node* getUnblockedNode(std::vector<std::vector<Node>>& grid) {
 	} while (grid[RandomRow][RandomCol].blocked);
 
 	return &grid[RandomRow][RandomCol];
+}
+
+Node* getHotspotCenter(std::vector<std::vector<Node>>& grid, int radius)
+{
+	Node* node;
+
+	do
+	{
+		node = getUnblockedNode(grid);
+	} while (node->row - radius < 0 ||
+		node->row + radius >= grid.size() ||
+		node->col - radius < 0 ||
+		node->col + radius >= grid[0].size());
+
+	return node;
 }
 
 void AI::Main() {
@@ -34,6 +50,8 @@ void AI::Main() {
 }
 
 void AI::Start() {
+	SetRandomSeed(time(0));
+
 	grid.clear();
 
 	for (int row = 0; row < ROWS; row++) 
@@ -50,9 +68,9 @@ void AI::Start() {
 		grid.push_back(rowNodes);
 	}
 
-	// Let's block 20% of them
-	int twentyPercent = grid.size() * grid[0].size() * 0.2;
-	for (int i = 0; i < twentyPercent; i++)
+	// Let's block 25% of them
+	int twentyfivePercent = grid.size() * grid[0].size() * 0.25;
+	for (int i = 0; i < twentyfivePercent; i++)
 		getUnblockedNode(grid)->blocked = true;
 
 	// Start node
@@ -62,8 +80,38 @@ void AI::Start() {
 	end = getUnblockedNode(grid);
 	end->blocked = true; end->fillColor = GREEN; end->txt = "E";
 
-	BFSSearch.push_back(start);
-	searching = true;
+	hotspots.clear();
+	for (int i = 0; i < 5; i++) {
+		int radius = 3;
+		Node* hotspot = getHotspotCenter(grid, radius);
+		hotspots.push_back(Hotspot(hotspot->row, hotspot->col, radius, 5));
+
+		for (int row = hotspot->row - radius; row <= hotspot->row + radius; row++)
+		{
+			for (int col = hotspot->col - radius; col <= hotspot->col + radius; col++)
+			{
+				int rowDistance = row - hotspot->row;
+				int colDistance = col - hotspot->col;
+
+				float distance = sqrtf(rowDistance * rowDistance + colDistance * colDistance);
+
+				if (distance <= radius)
+				{
+					if (!grid[row][col].blocked)
+					{
+						grid[row][col].hotspot = true;
+						if (&grid[row][col] != start && &grid[row][col] != end)
+						{
+							grid[row][col].fillColor = RED;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	STR(start, end);
+	//BFSSearch.push_back(start);
 }
 
 void AI::Update() {
@@ -71,6 +119,7 @@ void AI::Update() {
 		for (auto node : row)
 			node.Draw();
 
+	/*
 	if (searching) {
 		bfsTimer += GetFrameTime();
 		if (bfsTimer >= bfsDelay) {
@@ -78,6 +127,25 @@ void AI::Update() {
 			BFSSearchSteps();
 		}
 	}
+	else if (showingPath) {
+		pathTimer += GetFrameTime();
+		if (pathTimer >= pathDelay) {
+			pathTimer = 0.0f;
+
+			if (pathIndex < finalPath.size()) {
+				Node* node = finalPath[pathIndex];
+
+				if (node != start && node != end) 
+					node->fillColor = YELLOW;
+				
+				pathIndex++;
+			}
+			else {
+				showingPath = false;
+			}
+		}
+	}
+	*/
 }
 
 std::vector<Node*> AI::GetNeighbors(Node* node)
@@ -107,6 +175,30 @@ std::vector<Node*> AI::GetNeighbors(Node* node)
 	return neighbors;
 }
 
+float AI::GetNodeCost(Node* node)
+{
+	float cost = 1.0f;
+
+	for (const Hotspot& hotspot : hotspots)
+	{
+		int rowDistance = abs(node->row - hotspot.row);
+		int colDistance = abs(node->col - hotspot.col);
+		float distance = sqrtf(rowDistance * rowDistance +colDistance * colDistance);
+
+		if (distance > hotspot.radius)
+			continue;
+
+		float intensity = 1.0f - (distance / hotspot.radius);
+		float hotspotCost = 1.0f + (hotspot.maxCost - 1.0f) * intensity;
+
+		cost = std::max(cost, hotspotCost);
+	}
+
+	return cost;
+}
+
+
+/*
 void AI::BFSNeighbor(Node* node) {
 	// Looking at all four neighbors now
 	std::vector<Node*> neighbors = GetNeighbors(node);
@@ -154,11 +246,16 @@ void AI::BFSSearchSteps()
 
 void AI::ShowFinalPath()
 {
+	finalPath.clear();
+
 	Node* currentNode = end;
 
 	while (currentNode != nullptr) {
-		if (currentNode != start && currentNode != end)
-			currentNode->fillColor = YELLOW;
+		finalPath.push_back(currentNode);
 		currentNode = currentNode->parent;
 	}
+
+	std::reverse(finalPath.begin(), finalPath.end());
+	showingPath = true;
 }
+*/

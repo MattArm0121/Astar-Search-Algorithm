@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClCompile Include="A4_2048.cpp" />
     <ClCompile Include="AI.cpp" />
+    <ClCompile Include="DJK.cpp" />
     <ClCompile Include="FlappyBird.cpp" />
     <ClCompile Include="Hypotrochoid.cpp" />
     <ClCompile Include="main.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="MemoryTile.cpp" />
     <ClCompile Include="ParticleSystem.cpp" />
     <ClCompile Include="SnakeGame.cpp" />
+    <ClCompile Include="STR.cpp" />
     <ClCompile Include="Structure.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -55,6 +55,12 @@
     <Filter Include="Source Files\L3">
       <UniqueIdentifier>{a4ed354c-9352-4ced-88dc-f9938abb1ea7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\L9">
+      <UniqueIdentifier>{4346b5a4-f9a2-401d-afb9-a32c4dbb67fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L9">
+      <UniqueIdentifier>{f9812b59-e7db-462d-9388-4e1256debe41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -86,6 +92,12 @@
     </ClCompile>
     <ClCompile Include="FlappyBird.cpp">
       <Filter>Source Files\L3</Filter>
+    </ClCompile>
+    <ClCompile Include="DJK.cpp">
+      <Filter>Source Files\L8</Filter>
+    </ClCompile>
+    <ClCompile Include="STR.cpp">
+      <Filter>Source Files\L8</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

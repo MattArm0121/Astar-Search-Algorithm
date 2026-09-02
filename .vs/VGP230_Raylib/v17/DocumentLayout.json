@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|solutionrelative:VGP230_Raylib\\AI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\STR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|solutionrelative:VGP230_Raylib\\STR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|solutionrelative:VGP230_Raylib\\AI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|solutionrelative:VGP230_Raylib\\AI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\DJK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|solutionrelative:VGP230_Raylib\\DJK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF5C2B38-6699-4112-85BB-2391C8591364}|VGP230_Raylib\\VGP230_Raylib.vcxproj|C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,36 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "STR.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\STR.cpp",
+              "RelativeDocumentMoniker": "VGP230_Raylib\\STR.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\STR.cpp",
+              "RelativeToolTip": "VGP230_Raylib\\STR.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwFEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-01T21:25:22.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DJK.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\DJK.cpp",
+              "RelativeDocumentMoniker": "VGP230_Raylib\\DJK.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\DJK.cpp",
+              "RelativeToolTip": "VGP230_Raylib\\DJK.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-01T21:09:13.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AI.cpp",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.cpp",
               "RelativeDocumentMoniker": "VGP230_Raylib\\AI.cpp",
               "ToolTip": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.cpp",
               "RelativeToolTip": "VGP230_Raylib\\AI.cpp",
-              "ViewState": "AgIAADEAAAAAAAAAAAAEwEQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-25T20:36:30.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AI.h",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.h",
-              "RelativeDocumentMoniker": "VGP230_Raylib\\AI.h",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.h",
-              "RelativeToolTip": "VGP230_Raylib\\AI.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T20:29:22.446Z",
+              "WhenOpened": "2026-08-25T20:36:30.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AI.h",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.h",
+              "RelativeDocumentMoniker": "VGP230_Raylib\\AI.h",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\AI.h",
+              "RelativeToolTip": "VGP230_Raylib\\AI.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-25T20:29:22.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VGP230_Raylib\\VGP230_Raylib\\main.cpp",
               "RelativeDocumentMoniker": "VGP230_Raylib\\main.cpp",

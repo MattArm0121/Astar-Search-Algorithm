@@ -1,46 +1,28 @@
 ﻿  AI.cpp
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(35,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(59,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(34,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(58,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(33,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(57,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(32,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(56,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(42,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(66,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(42,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(66,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'AI.cpp')
   
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(6,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(10,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(11,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(42,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(45,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(54,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  main.cpp
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(35,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(34,8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(33,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(32,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(42,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.h(42,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-  Generating Code...
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(11,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(12,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(53,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(60,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(63,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(72,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(96,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\source\repos\VGP230_Raylib\VGP230_Raylib\AI.cpp(186,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   VGP230_Raylib.vcxproj -> C:\Users\user\source\repos\VGP230_Raylib\x64\Debug\VGP230_Raylib.exe
